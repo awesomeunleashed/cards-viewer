@@ -1,3 +1,5 @@
 [*.cs]
 
 dotnet_diagnostic.RCS1110.severity = none
+dotnet_diagnostic.RCS1213.severity = none
+dotnet_diagnostic.RCS1169.severity = none

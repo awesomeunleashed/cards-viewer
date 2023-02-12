@@ -306,7 +306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e22edd9f30913e54a9a2599503931dd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollRect: {fileID: 1527907554}
   cardPrefab: {fileID: 1674518882420898953, guid: 20431b5428c13ca459606f0e8eb9ba30, type: 3}
   spawnCards:
   - rank: 11
@@ -417,7 +416,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -200, y: -200}
+  m_SizeDelta: {x: -280, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978506730
 MonoBehaviour:
@@ -554,7 +553,7 @@ MonoBehaviour:
   m_Content: {fileID: 962411578}
   m_Horizontal: 1
   m_Vertical: 0
-  m_MovementType: 2
+  m_MovementType: 0
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
@@ -572,7 +571,7 @@ MonoBehaviour:
       - m_Target: {fileID: 962411581}
         m_TargetAssemblyTypeName: CardAreaScript, Assembly-CSharp
         m_MethodName: OnMoved
-        m_Mode: 0
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
